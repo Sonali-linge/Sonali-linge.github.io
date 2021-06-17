@@ -1,0 +1,56 @@
+    @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+     body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+    }
+    
+    .header a {
+        color: black;
+       
+    
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 0px;
+        border-radius: 4px;
+    }
+    
+    .header a.name {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 3rem;
+        text-decoration: none;
+    }
+    
+
+    .header-right {
+        display: flex;
+        width: 20%;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: bold;
+    }
+    .header-right a {
+        border-radius: 10px;
+        transition: all 0.2s ease;
+    }
+    .header-right a:hover {
+        background-color: rgba(219, 218, 218, 0.705);
+    }
+
+    
+    .carousel-img {
+        width: 30%;
+        height: 90%;
+    }
+    
+    .carousel-item {
+        justify-content: space-around;
+    }
